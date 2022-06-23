@@ -17,7 +17,8 @@ function criaPrimeiraFrase(num1, num2){
         saoIguais = 'nao';
     }
 
-    return 'Os números ' +num1+ ' e ' +num2+ '  '+ saoIguais +' são iguais.'
+   // return 'Os números ' +num1+ ' e ' +num2+ '  '+ saoIguais +' são iguais.'
+   return `Os números ${num1} e ${num2}  ${saoIguais} são iguais.`
 };
 
 
@@ -36,7 +37,7 @@ function criaSegundaFrase(num1 , num2){
         resultado20 = 'Maior';
     }
 
-    return ' Sua soma é ' +soma+ ' eque é ' +resultado10+ ' que 10 e '+ resultado20 +' que 20.  '
+    return ` Sua soma é ${soma} eque é ${resultado10} que 10 e ${resultado20} que 20.  `
 
 }
 
